@@ -4,12 +4,16 @@
 # in order to complete the rest of this course and be ready for the next course!
 
 def introduction (name)
-  puts "Hi, my name is #{name} and I'm good at #{language}"
+  puts "Hi, my name is #{name}."
 end 
 
+def introduction_with_language (name, language)
+  puts "Hi, my name is #{name} and I am learning to program #{language}."
+end 
 
 def introduction_with_language (name, language = "coding")
-  
+  puts "Hi, my name is #{name} and I'm good at #{language}"
+end 
 
 
 
